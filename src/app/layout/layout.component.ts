@@ -9,7 +9,8 @@ export class LayoutComponent implements OnInit {
   items = [{ title: 'Slide 1' }, { title: 'Slide 2' }, { title: 'Slide 3' },{ title: 'Slide 4' }];
 
   index;
-  isShown:boolean=false;
+
+  isShown:boolean=true;
 
   images = [ 
     'https://us.123rf.com/450wm/olgysha/olgysha1206/olgysha120600002/13966486-panorama-of-cologne-germany.jpg?ver=6',
@@ -17,7 +18,6 @@ export class LayoutComponent implements OnInit {
   ];
 
   onChange(idx) {
-    console.log(idx);
     this.index =  idx;
   }
   // event_list = [

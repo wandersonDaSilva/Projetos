@@ -26,7 +26,7 @@
 
 .navbar
 {
-    background-color: rgba(22, 41, 151, 0);
+    background-color: rgb(0, 81, 171);
 }
 .navbar .brand-navbar img:hover
 {
@@ -98,11 +98,11 @@ h5{
 }
 
 .content-title h1 {
-    background-color: #007b5eba;
+    background-color: #132f5038;
 }
 
 .content-title h5 {
-    background-color: #007b5eba;
+    background-color: #132f5038;
 }
 
 .page-container {
@@ -438,7 +438,7 @@ section .section-title {
     height: 100vh !important;
     /* margin-left: -10% !important; */
     background-attachment: fixed !important;
-    margin-top: -10% !important;
+    margin-top: 0% !important;
     background-position: center center !important;
     height: auto;
     background: url(https://stmed.net/sites/default/files/cancun-wallpapers-28479-2900528.jpg);
