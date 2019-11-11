@@ -1,0 +1,24 @@
+.tmb img { 
+    position: absolute;
+    /* left: 50%; */
+    /* width: 300px; */
+    /* margin-left: -150px;  */
+}
+
+.imagens{
+    /* width:auto;
+    height:auto;
+    border:1px solid #999; */
+
+    width: 423px;
+    height: 450px;
+        -webkit-box-shadow: 3px 3px 3px rgba(50, 50, 50, 0.77);
+        -moz-box-shadow:    3px 3px 3px rgba(50, 50, 50, 0.77);
+        box-shadow:         3px 3px 3px rgba(50, 50, 50, 0.77);
+}
+
+.carousel__prev-button {
+    position: absolute;
+    left: 0;
+    z-index: 2;
+  }

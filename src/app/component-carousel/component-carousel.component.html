@@ -1,0 +1,36 @@
+<div [@thumbState]="idx === counter ? 'active' : 'inactive'" style="width: 95%; height: 100%; position: absolute;" class="tmb" *ngFor="let img of images; let idx = index">
+
+    <div>
+
+        <i class="fa fa-arrow-circle-right" style="
+        position: absolute;
+        z-index: 1000;
+        top: 45%;
+        font-size: 50px;
+        right: 10px;
+        color: aliceblue;
+        -webkit-box-shadow: 9px 7px 5px rgba(5, 5, 5, 0.77);
+        -moz-box-shadow:    9px 7px 5px rgba(5, 5, 5, 0.77);
+        box-shadow:         9px 7px 5px rgba(5, 5, 5, 0.77);
+        border-radius: 100%
+        " (click)="onClickThumb($event)"></i>
+
+        <img class="imagens" (mouseover)="stopTimer()" (mouseout)="startTimer()" [src]="img"
+             />
+
+        <i class="fa fa-arrow-circle-left" style="
+        position: absolute;
+        z-index: 1000;
+        top: 45%;
+        font-size: 50px;
+        left: 10px;
+        color: aliceblue;
+        -webkit-box-shadow: 9px 7px 5px rgba(5, 5, 5, 0.77);
+        -moz-box-shadow:    9px 7px 5px rgba(5, 5, 5, 0.77);
+        box-shadow:         9px 7px 5px rgba(5, 5, 5, 0.77);
+        border-radius: 100%
+        " (click)="onClickThumb($event)"></i>
+
+        
+    </div>
+</div>
